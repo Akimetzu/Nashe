@@ -28,7 +28,7 @@ public class Test {
         //    System.out.println("incorrecto");
        
         CarreraDaoImp cdi =  new CarreraDaoImp();
-        System.out.println(cdi.create(new Carrera(1, "ENFERMERO")));
+        System.out.println(cdi.create(new Carrera(0, "Ing.Industrial")));
         //System.out.println(cdi.update(new Carrera(5,"Nutricion")));
         //System.out.println(cdi.delete(1));
         //System.out.println(cdi.read(3));
